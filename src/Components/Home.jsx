@@ -29,13 +29,13 @@ const Home = () => {
             <div className='w-1/2'>
                 <img className='h-64 w-64 rounded-full mb-4 mx-auto' src={profile} alt="" />
                 <Marquee>
-                   <img className='h-16 mr-2 w-16 rounded-full' src={js} alt="" />
-                   <img className='h-16 mr-2 w-16 rounded-full' src={react} alt="" />
-                   <img className='h-16 mr-2 w-16 rounded-full' src={bootstrap} alt="" />
-                   <img className='h-16 mr-2 w-16 rounded-full' src={express} alt="" />
-                   <img className='h-16 mr-2 w-16 rounded-full' src={html} alt="" />
-                   <img className='h-16 mr-2 w-16 rounded-full' src={css} alt="" />
-                   <img className='h-16 mr-2 w-16 rounded-full' src={mongodb} alt="" />
+                   <img className='h-16 mr-5 w-16 rounded-full' src={js} alt="" />
+                   <img className='h-16 mr-5 w-16 rounded-full' src={react} alt="" />
+                   <img className='h-16 mr-5 w-16 rounded-full' src={bootstrap} alt="" />
+                   <img className='h-16 mr-5 w-16 rounded-full' src={express} alt="" />
+                   <img className='h-16 mr-5 w-16 rounded-full' src={html} alt="" />
+                   <img className='h-16 mr-5 w-16 rounded-full' src={css} alt="" />
+                   <img className='h-16 mr-5 w-16 rounded-full' src={mongodb} alt="" />
                 </Marquee>
             </div>
         </div>
