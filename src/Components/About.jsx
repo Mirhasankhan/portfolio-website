@@ -11,7 +11,7 @@ const About = () => {
                <p className='mt-2'>Phone: +880 1839033505</p>
                <p>Email: mirhasan000034@gmail.com</p>
                <p>Address: Feni, Bangladesh</p>
-               <button className='btn btn-primary mt-3'>Hire Me</button>
+               <a href="#contact"><button className='btn btn-primary mt-3'>Hire Me</button></a>
             </div>
         </div>
     );

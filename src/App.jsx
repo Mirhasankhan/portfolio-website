@@ -1,8 +1,10 @@
 import './App.css'
 import About from './Components/About'
+import Contact from './Components/Contact'
 import Home from './Components/Home'
 import Services from './Components/Services'
 import Skills from './Components/Skills'
+import { FaHome, FaUser, FaBuffer, FaDiscourse, FaBriefcase, FaCommentAlt } from 'react-icons/fa';
 
 
 function App() {
@@ -13,28 +15,32 @@ function App() {
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content bg-[#001E3C] text-white ml-1">
           <div id='home'>
-            <Home></Home>            
+            <Home></Home>
           </div>
           <div id='about'>
-            <About></About>            
+            <About></About>
           </div>
           <div id='service'>
-            <Services></Services>           
+            <Services></Services>
           </div>
           <div id='skill'>
-             <Skills></Skills>          
+            <Skills></Skills>
+          </div>
+          <div id='contact'>
+            <Contact></Contact>
           </div>
           <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
         </div>
         <div className="drawer-side">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-          <ul className="menu p-4 w-48 h-full bg-[#001E3C] text-white text-xl font-medium">
+          <ul className="menu p-4 w-48 h-full bg-[#001E3C] text-white  font-medium">
             {/* Sidebar content here */}
-            <li><a href='#home'>Home</a></li>
-            <li><a href='#about'>About</a></li>
-            <li><a href='#service'>Service</a></li>
-            <li><a href='#skill'>Skill</a></li>
-            <li><a href='#contact'>Contact</a></li>
+            <li><a href='#home'><FaHome /> Home</a></li>
+            <li><a href='#about'><FaUser /> About</a></li>
+            <li><a href='#service'><FaBriefcase /> Service</a></li>
+            <li><a href='#portfolio'><FaBuffer /> Portfolio</a></li>
+            <li><a href='#skill'><FaDiscourse /> Skill</a></li>
+            <li><a href='#contact'><FaCommentAlt /> Contact</a></li>
           </ul>
 
         </div>
