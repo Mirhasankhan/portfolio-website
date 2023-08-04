@@ -1,3 +1,5 @@
+import call from '../assets/call.json'
+import Lottie from "lottie-react";
 
 const Contact = () => {
     const handleMessageSend = (e)=>{
@@ -10,7 +12,7 @@ const Contact = () => {
     }
     return (
         <div className="grid grid-cols-2">
-            <form onSubmit={handleMessageSend} className="card-body bg-black mx-6 mt-16">
+            <form onSubmit={handleMessageSend} className="card-body bg-gray-600 mx-6 mt-16">
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text text-white font-semibold text-xl">Email</span>
@@ -33,6 +35,7 @@ const Contact = () => {
                     <input className="btn btn-primary" type="submit" value="Send" />
                 </div>
             </form>
+            <Lottie animationData={call} loop={true} />
         </div>
     );
 };

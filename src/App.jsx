@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll'
 import './App.css'
 import About from './Components/About'
 import Contact from './Components/Contact'
@@ -33,14 +34,14 @@ function App() {
         </div>
         <div className="drawer-side">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-          <ul className="menu p-4 w-48 h-full bg-[#001E3C] text-white  font-medium">
+          <ul className="menu p-4 w-48 h-full bg-[#001E3C] text-white font-medium">
             {/* Sidebar content here */}
-            <li><a href='#home'><FaHome /> Home</a></li>
-            <li><a href='#about'><FaUser /> About</a></li>
-            <li><a href='#service'><FaBriefcase /> Service</a></li>
-            <li><a href='#portfolio'><FaBuffer /> Portfolio</a></li>
-            <li><a href='#skill'><FaDiscourse /> Skill</a></li>
-            <li><a href='#contact'><FaCommentAlt /> Contact</a></li>
+            <li className='hover:text-red-400'><Link to="home" smooth={true} duration={500}><FaHome />Home</Link></li>
+            <li><Link to="about" smooth={true} duration={500}><FaUser />About</Link></li>
+            <li><Link to="service" smooth={true} duration={500}><FaBriefcase />Service</Link></li>
+            <li><Link to="portfolio" smooth={true} duration={500}><FaBuffer />Portfolio</Link></li>
+            <li><Link to="skill" smooth={true} duration={500}><FaCommentAlt />Skills</Link></li>
+            <li><Link to="contact" smooth={true} duration={500}><FaDiscourse />Contact</Link></li>
           </ul>
 
         </div>
