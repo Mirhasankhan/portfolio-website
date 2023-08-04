@@ -4,7 +4,7 @@ import full from '../assets/fullstack-php-js.jpg'
 
 const Services = () => {
     return (
-        <div className='mt-24 mx-6'>
+        <div className='mt-24 mx-16'>
             <h2 className='text-3xl my-3'>Services</h2>
             <div className='flex gap-3'>
                 <div className='bg-green-400 p-5 rounded-lg'>
