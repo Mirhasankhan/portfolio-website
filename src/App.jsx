@@ -8,6 +8,7 @@ import Skills from './Components/Skills'
 import { FaHome, FaUser, FaBuffer, FaDiscourse, FaBriefcase, FaCommentAlt } from 'react-icons/fa';
 import Footer from './Components/Footer'
 import Portfolio from './Components/Portfolio'
+import DownloadResume from './Components/DownloadResume'
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
             <li><Link to="portfolio" smooth={true} duration={500}><FaBuffer />Portfolio</Link></li>
             <li><Link to="skill" smooth={true} duration={500}><FaCommentAlt />Skills</Link></li>
             <li><Link to="contact" smooth={true} duration={500}><FaDiscourse />Contact</Link></li>
+          
           </ul>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import profile from '../assets/profile.jpg'
+import profile from '../assets/hasan.jpg'
 import react from '../assets/react.svg'
 import bootstrap from '../assets/boot.jpg'
 import js from '../assets/js.png'
@@ -41,7 +41,7 @@ const Home = () => {
                 {/* <button className='btn btn-secondary my-3'>Download Resume <FaCloudDownloadAlt className='text-xl' /></button> */}
             </div>
             <div className='w-1/2'  data-aos="fade-left" data-aos-duration="1500">
-                <img className='h-64 w-64 rounded-full mb-4 mx-auto border-4 border-sky-500' src={profile} alt="" />
+                <img className='h-80 w-80 rounded-full mb-4 mx-auto border-4 border-sky-500' src={profile} alt="" />
                 <Marquee>
                     <img className='h-16 mr-5 w-16 rounded-full' src={js} alt="" />
                     <img className='h-16 mr-5 w-16 rounded-full' src={react} alt="" />
