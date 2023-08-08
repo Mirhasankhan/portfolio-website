@@ -30,7 +30,8 @@ const Home = () => {
                 <h1 className='text-xl font-medium'>Welcome To My World</h1>
                 <h1 className='text-3xl font-bold my-2'>Hi,I'm <span className='text-green-300'>Mir Hasan</span></h1>
                 <h3 className='text-xl font-medium'>I am a <span className='text-green-300'>{elements[currentIndex]}</span></h3>
-                <p className='font-medium mt-2'>Hey,I'm Mir Hasan. I am a Full Stack Web Developer.I am a website developer from Bangladesh. I create professional websites. As a web developer, I have a passion for creating dynamic and engaging online experiences.</p>
+                <p className='font-medium mt-2'>HI’m a highly motivated MERN stack web developer, skilled in creating modern and interactive web applications using React.js. Committed to producing high-quality code and exceeding client expectations and a deep passion for delivering exceptional user experiences with the ability to adapt with new technologies. I am excited to contribute to a dynamic development team and help drive innovation in the industry.
+</p>
                 <div className='flex text-3xl justify-start gap-8 mt-6'>
                     <a href="https://www.facebook.com/mir.hasan.794/"><FaFacebook /></a>
                     <a href="https://www.instagram.com/?hl=en"><FaInstagram /></a>
