@@ -12,7 +12,7 @@ const Contact = () => {
     return (
         <div className="grid grid-cols-2">
              <Lottie animationData={call} loop={true} />
-            <form onSubmit={handleMessageSend} className="card-body bg-gray-600 mx-16 rounded-md mt-16">
+            <form onSubmit={handleMessageSend} className="card-body bg-[#033E48] mx-16 rounded-md mt-16">
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text text-white font-semibold text-xl">Company Name</span>

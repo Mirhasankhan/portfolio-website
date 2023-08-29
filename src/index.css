@@ -5,8 +5,17 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    background-color: black;
 }
 
 .main-button{
     @apply bg-sky-500 text-white py-2 px-3 rounded-lg font-semibold hover:bg-purple-500;
+}
+
+.resourse-button{
+    @apply bg-sky-500 text-white py-2 px-3 rounded-lg font-medium
+}
+
+.link-logo{
+    @apply flex items-center gap-2 font-semibold py-2 hover:text-green-500 cursor-pointer
 }
